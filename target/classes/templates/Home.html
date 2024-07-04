@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Sistema Happy Machine</title>
+</head>
+
+<body>
+	<h1>Bem-vindo</h1>
+	<h2>Selecione uma opção abaixo</h2>
+	<div>
+		<a th:href="@{/usuario/all}">
+			<button type="button">Usuarios</button>
+		</a>
+		<button type="button">Cidades</button>
+		<button type="button">Equipamento</button>
+		<button type="button">Tipos de Equipamento</button>
+		<button type="button">Empresas</button>
+	</div>
+</body>
+
+</html>
